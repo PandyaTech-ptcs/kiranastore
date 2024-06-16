@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/ImageSlider.css */
+.carousel-item img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.modal img {
+  transition: transform 0.2s;
+}
+
+.modal img:hover {
+  transform: scale(1.1);
+}
+
+
+/* src/ImageSlider.css */
+.carousel-item img {
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.modal img {
+  transition: transform 1s;
+}
+
+.modal img:hover {
+  transform: scale(1.1);
+}
+
