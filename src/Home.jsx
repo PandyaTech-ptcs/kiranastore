@@ -1,16 +1,15 @@
 import React from 'react';
 import MenuComponent from './MenuComponent';
-import ImageSlider from './ImageSlider';
-import CardMenu from './CardMenu';
-import ReviewCard from './ReviewCard';
+import { Display } from './Display';
+import { Intro } from './Intro';
+
 
 export const Home = () => {
   return (
     <>
       <MenuComponent />
-      <ImageSlider />
-      <CardMenu />   
-      <ReviewCard />   
+      <Display/>
+      <Intro/>
     </>
   );
 };

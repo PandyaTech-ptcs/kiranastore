@@ -73,4 +73,115 @@
 .modal img:hover {
   transform: scale(1.1);
 }
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
 
+.intro-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.intro-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro-description {
+  flex: 2;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .intro-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* styles.css */
+
+.text-center {
+  text-align: center;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Example hover color */
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.display-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.display-content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons > * {
+  margin-right: 10px;
+}
